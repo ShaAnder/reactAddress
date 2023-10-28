@@ -1,28 +1,30 @@
 import { useState } from "react";
 
-export function Address({ address, onSelection, selectedAddress }) {
+export function Address({ addresses, onSelection, selectedAddress }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   // selected address, set if there is an id and it's the same as the one we're clicking
-  const isSelected = selectedAddress?.id === address.id;
+  const isSelected = selectedAddress?.id === addresses.id;
 
   function handleExpandAddress() {
     if (!isExpanded) setIsExpanded(true);
     if (isExpanded === true) setIsExpanded(false);
   }
 
-  return (
+  return addresses.map((address, index) => (
     <li style={{ cursor: "pointer" }} className={isSelected ? "selected" : ""}>
       <span onClick={() => handleExpandAddress()}>
-        <h3>
-          {address.firstName} {address.lastName}
-        </h3>
+        <div className="addressbook">
+          <h3>
+            {index + 1} {address.firstName} {address.lastName}{" "}
+          </h3>
+        </div>
         {isExpanded && (
-          <p>
+          <h3>
             {address.address} {address.city} {address.postalCode}
-          </p>
+          </h3>
         )}
       </span>
     </li>
-  );
+  ));
 }

@@ -1,8 +1,8 @@
 export function Logo() {
   return (
-    <div>
+    <div className="logo">
       <h1>AddressBook</h1>
-      <p>- Keep Your Contacts Close -</p>
+      <h6>— Keep Your Contacts Close —</h6>
     </div>
   );
 }

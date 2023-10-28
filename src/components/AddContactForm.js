@@ -7,7 +7,7 @@ export function AddContactForm({
   onAddAddress,
 }) {
   return (
-    <div>
+    <nav>
       {!showAddressForm && (
         <AddressHotbarClosed openAddressForm={setShowAddressForm} />
       )}
@@ -17,6 +17,6 @@ export function AddContactForm({
           onAddAddress={onAddAddress}
         />
       )}
-    </div>
+    </nav>
   );
 }

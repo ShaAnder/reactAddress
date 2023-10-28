@@ -36,8 +36,8 @@ export function AddressHotbarOpen({ closeAddressForm, onAddAddress }) {
     closeAddressForm(false);
   }
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>
+      <div className="searchbar">
         <label>First Name</label>
         <input
           type="text"
@@ -73,10 +73,14 @@ export function AddressHotbarOpen({ closeAddressForm, onAddAddress }) {
           onChange={(e) => setPostalCode(e.target.value)}
           placeholder="Postal Code"
         />
-        <button>Add</button>
-      </form>
-      {/*seperate button not attached to the form so we don't use our default button UI component */}
-      <button onClick={() => handleCloseAddressForm()}>Close</button>
-    </div>
+        <Button className="button">Add</Button>
+        <Button
+          className="button-outline"
+          onClick={() => handleCloseAddressForm()}
+        >
+          Close
+        </Button>
+      </div>
+    </form>
   );
 }

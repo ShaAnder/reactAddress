@@ -1,3 +1,7 @@
 export function Footer() {
-  return <div>© ShaAnder 2023</div>;
+  return (
+    <div className="footer">
+      <p>© ShaAnder 2023</p>
+    </div>
+  );
 }
