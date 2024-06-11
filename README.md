@@ -8,7 +8,7 @@
 <img src="https://github.com/ShaAnder/address_book_react/assets/129494996/dd8e0d83-6509-42e0-80b5-3a1321ee1660" alt="project image" height="200px">
     
 <p align="center">
-  <img src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/version-0.0.1-orange.svg?cacheSeconds=2592000" />
   <a href="https://reactAddress-shaander.netlify.app" target="_blank">
     <img alt="Demo" src="https://img.shields.io/badge/demo-offline-red.svg" />
   </a>
@@ -19,7 +19,7 @@
     <img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg" />
   </a>
   <a href="https://github.com/ShaAnder/reactAddress/blob/main/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+    <img alt="License: GPL3" src="https://img.shields.io/badge/License-GPL3-yellow.svg" />
   </a>
 </p>
 
