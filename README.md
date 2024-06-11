@@ -5,12 +5,12 @@
 <h1  align="center">React Address</h1>
 
 <p  align="center">
-<img src="public/logo192.png" alt="project image">
+<img src="https://github.com/ShaAnder/address_book_react/assets/129494996/dd8e0d83-6509-42e0-80b5-3a1321ee1660" alt="project image" height="200px">
     
 <p align="center">
   <img src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://reactAddress-shaander.netlify.app" target="_blank">
-    <img alt="Demo" src="https://img.shields.io/badge/demo-online-green.svg" />
+    <img alt="Demo" src="https://img.shields.io/badge/demo-offline-red.svg" />
   </a>
   <a href="https://github.com/ShaAnder/reactAddress#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
